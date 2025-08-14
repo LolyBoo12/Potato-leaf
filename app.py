@@ -27,7 +27,7 @@ def load_model(model_name):
 
 # Fungsi preprocessing gambar
 def preprocess_image(img):
-    img = img.resize((224, 224))
+    img = img.resize((256, 256))
     img_array = np.array(img.convert('RGB'))
     img_array = np.expand_dims(img_array, axis=0)
     return img_array / 255.0
