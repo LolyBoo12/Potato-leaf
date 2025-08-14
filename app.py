@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 @st.cache_resource
 def load_model(model_name):
     model_paths = {
-        "MobileNet": r"E:\Kuliah S8\CD aldi\Program\5210411260_Aldianto Dickyu Septian_Program\Program Klasifikasi Penyakit Daun Kentang\Model\mobilenet.keras",
-        "ConvNextBase": r"E:\Kuliah S8\CD aldi\Program\5210411260_Aldianto Dickyu Septian_Program\Program Klasifikasi Penyakit Daun Kentang\Model\convnextbase.h5",
-        "VGG": r"E:\Kuliah S8\CD aldi\Program\5210411260_Aldianto Dickyu Septian_Program\Program Klasifikasi Penyakit Daun Kentang\Model\vgg.h5",
-        "Simple": r"E:\Kuliah S8\CD aldi\Program\5210411260_Aldianto Dickyu Septian_Program\Program Klasifikasi Penyakit Daun Kentang\Model\simple.h5"
+        "MobileNet": r"mobilenet.keras",
+        "ConvNextBase": r"convnextbase.h5",
+        "VGG": r"vgg.h5",
+        "Simple": r"simple.h5"
     }
     
     model_path = model_paths.get(model_name)
