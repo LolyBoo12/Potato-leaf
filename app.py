@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
+from tensorflow import keras
 from PIL import Image
+import matplotlib.pyplot as plt
 
 # Fungsi untuk memuat model berdasarkan pilihan pengguna (h5 dan keras)
 @st.cache_resource
